@@ -11,6 +11,7 @@ int main()
         F*=i;
     }
     printf("Factorial you number is %d" , F);
+	//вы палічылі звычайны, а не двайны фактарыал
 
     return 0;
 }
