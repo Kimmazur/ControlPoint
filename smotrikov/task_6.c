@@ -9,7 +9,7 @@ int main()
     printf("ENTER b =");
     scanf("%d",&b);
     for(a;a<b;++a){
-         i = ++a;
+         i = ++a;//i=a+1
         for(i;i<=b;++i){
             printf("%d-%d\n",a,i);
         }
