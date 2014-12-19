@@ -6,7 +6,7 @@ int main()
     int n;
     printf("Enter the number: ");
     scanf("%d", &n);
-    int amountOfSpacesLeft = 0, amountOfSpacesBetween = n - 2;
+    int amountOfSpacesLeft = 1/*N.B!*/, amountOfSpacesBetween = n - 2;
     int i = 0;
     do
     {
@@ -21,7 +21,8 @@ int main()
     do
     {
 
-        printf("%*c%s", amountOfSpacesLeft, 'y');
+        printf("%*c\n", amountOfSpacesLeft, 'y');//пераблыталі і забылі перавод радку
+        // а дзе памяншенне k?
     }
     while(k>=0);
 

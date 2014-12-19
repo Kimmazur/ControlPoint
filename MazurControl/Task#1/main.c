@@ -10,7 +10,7 @@ int main()
     double rsquare, rcube;
     rsquare=r*r;
     rcube=r*r*r;
-    V=(4/3)*M_PI*rcube;
+    V=(4/3)*M_PI*rcube;// 4/3 цэлалікавае дзяленне, таму памылка
     S=4*M_PI*rsquare;
     printf("\t\tV = %g\n\t\tS = %g", V, S);
 
