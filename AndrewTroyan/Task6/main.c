@@ -12,11 +12,11 @@ int main()
     min = secondNumber < firstNumber? secondNumber : firstNumber;
     for(int i = min; i < max; ++i)
     {
-        for(int k = 1, j = 1; k <= (max - i); ++k, ++j)
+        for(int k = 1, j = 1; k <= (max - i); ++k, ++j)//дастаткова толькі альбо k, альбо j
         {
             printf("(%d, %d), ", i, i + j);
         }
     }
-    printf("\b\b.");
+    printf("\b\b.");// !
     return 0;
 }
