@@ -1,7 +1,7 @@
 
 *.exe
 *.obj
-*.layout&
+*.layout*
 *.depend*
 *.save
 *.[oa]
